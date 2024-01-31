@@ -23,7 +23,7 @@ loader.load('/beautyProducts.gltf', function (gltf) {
   camera.position.set(9,12,3);
   camera.lookAt(0,0,0);
 
-  const ambientLight = new THREE.AmbientLight(0xffffff, 2);
+  const ambientLight = new THREE.AmbientLight(0xffffff, 2.5);
   scene.add(ambientLight);
 
 function animate() {
